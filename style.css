@@ -73,7 +73,7 @@ h2 {
 
 .btn:hover {
     cursor: pointer;
-    background-color: rgb(148, 31, 148);
+    background-color: blueviolet;
 }
 
 .btn[disables]:hover {
