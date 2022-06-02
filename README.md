@@ -10,7 +10,7 @@ A website that tests your Javascript knowledge and keeps the high scores
 
 ## Website
 
-https://vrzali.github.io/ch4/
+https://vrzali.github.io/
 
 ## Screenshot
 
