@@ -1,4 +1,4 @@
-# # JavaScript Multiplechoice Quiz
+# JavaScript Multiplechoice Quiz
 
 ## Purpose
 A website that tests your Javascript knowledge and keeps the high scores
