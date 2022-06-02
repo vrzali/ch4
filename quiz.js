@@ -73,6 +73,8 @@ getNewQuestion = () => {
         return window.location.assign('/end.html')
     }
 
+    document.getElementById("status").innerHTML=""
+
     questionCounter++
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
     
@@ -102,8 +104,10 @@ choices.forEach(choice => {
 
         if (classToApply === 'incorrect') {
             score = score - 10;
+            document.getElementById("status").innerHTML="Incorrect!"
         } else if (classToApply === 'correct') {
             allAnswersIncorrect = false;
+            document.getElementById("status").innerHTML="Correct!"
         }
 
         selectedChoice.parentElement.classList.add(classToApply)
