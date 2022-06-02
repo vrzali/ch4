@@ -20,6 +20,11 @@ h2 {
     margin-bottom: 4rem;
 }
 
+h3 {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
 #quizDescription {
     margin-bottom: 4rem;
     text-align: center;
